@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <TextView
+        android:id="@+id/surahnameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#736154"
+        android:gravity="bottom|center"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="سورة البقره "
+        android:textColor="#000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+</LinearLayout>

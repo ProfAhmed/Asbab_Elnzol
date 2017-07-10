@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ViewPagerActivity">
+
+
+    <item
+        android:id="@+id/setting"
+        android:orderInCategory="100"
+        android:title="الضبط"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/مفضله"
+        android:orderInCategory="100"
+        android:title="المفضله"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/fav"
+        android:icon="@drawable/ic_favorite_border_black_"
+        android:orderInCategory="100"
+        android:title="مفضله"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/back"
+        android:icon="@drawable/ic_arrow_back_black_24dp"
+        android:title="Search"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:showAsAction="always" />
+
+
+</menu>
